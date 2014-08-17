@@ -1,0 +1,25 @@
+{
+  "name": "hexo-processor-copyassets",
+  "version": "0.0.1",
+  "description": "Processor copyassets plugin for Hexo",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f111fei/hexo-processor-copyassets.git"
+  },
+  "author": {
+    "name": "xzper",
+    "email": "mail@xzper.com",
+    "url": "http://xzper.com"
+  },
+  "readme": "# Processor CopyAssets Plugin\n\nThis is a processor copyAssets plugin for Hexo.You can customize what files are not rendered but can direct copy while executing `hexo generate`.\n\n## Install\n\n``` bash\n$ npm install hexo-processor-copyassets --save\n```\n\n## Options\n\nYou can configure this plugin in `_config.yml`. ForExample:\n\n    copyAssets: project\n\nor\n\n    copyAssets: CNAME,project,resource/img\n\n- **copyAssets** - The files or folders path in source folder that you want to direct copy to public folder.  \r\n\r\n\r\n---\r\n\r\n这是一个Hexo的文件处理插件，能自定义source中的指定文件或文件夹，在执行generate命令的时候能直接复制到public文件夹中而不经过渲染。比如，这个文件source/project/index.html，我不想被渲染，那么你就可以使用这个插件。\r\n\r\n## 安装\r\n\r\n``` bash\r\n$ npm install hexo-processor-copyassets --save\r\n```\r\n\r\n## 配置插件\r\n\r\n\r\n你可以在_config.yml中配置这个插件，例如:\r\n\r\n    copyAssets: project  #表示project文件夹中的文件不被渲染，直接复制到public文件夹。\r\n\r\n或者\r\n\r\n    copyAssets: CNAME,project,resource/img #可以指定文件和文件夹，用\",\"号隔开",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/f111fei/hexo-processor-copyassets/issues"
+  },
+  "homepage": "https://github.com/f111fei/hexo-processor-copyassets",
+  "_id": "hexo-processor-copyassets@0.0.1",
+  "scripts": {},
+  "_shasum": "22d21642aa0bea0b88d045004a8dd269fff38ae8",
+  "_from": "hexo-processor-copyassets@*"
+}
